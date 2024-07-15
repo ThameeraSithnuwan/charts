@@ -5,7 +5,7 @@ name: container-dev_app_83b248d_env_43e64b6 Pipeline (Skyu Generated)
       - main
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_dd3167c4-3bcd-486d-96ba-4fdb9e2b434c
+    types: pipeline_3ba190c6-931b-4bf1-bf8a-c47455fd1412
 env:
   ENCODED_PIPELINE_SECRET: ${{secrets.CHARTS_CONTAINERDEV_APP_83B248D_ENV_43E64B6}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}
