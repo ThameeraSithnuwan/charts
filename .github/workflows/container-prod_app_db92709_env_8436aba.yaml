@@ -5,7 +5,7 @@ name: container-prod_app_db92709_env_8436aba Pipeline (Skyu Generated)
       - v*
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_b192035a-1fe3-4ec2-8c62-c86073993d77
+    types: pipeline_ec3e1985-4992-42d5-9bc2-159ce4a82d65
 env:
   ENCODED_PIPELINE_SECRET: ${{secrets.CHARTS_CONTAINERPROD_APP_DB92709_ENV_8436ABA}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}
